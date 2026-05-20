@@ -1,0 +1,57 @@
+\doxysection{Log\+Data Struct Reference}
+\hypertarget{structLogData}{}\label{structLogData}\index{LogData@{LogData}}
+
+
+Estructura que almacena el registro de eventos del sistema. Mapea los registros de la tabla "{}historial"{} para llevar trazabilidad de acciones.  
+
+
+
+
+{\ttfamily \#include $<$db\+\_\+manager.\+h$>$}
+
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{structLogData_ad980cad444dc92a6bd05cb31fbb2e2e6}{id\+\_\+evento}}
+\item 
+QString \mbox{\hyperlink{structLogData_aab14c0affdb746d52d6ec05208d18f3b}{fecha\+\_\+hora}}
+\item 
+int \mbox{\hyperlink{structLogData_a2164ae19aac90048fc0f50aacc710547}{id\+\_\+dispositivo}}
+\item 
+QString \mbox{\hyperlink{structLogData_a813d560f082af30599b1397658cd9e7f}{accion}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Estructura que almacena el registro de eventos del sistema. Mapea los registros de la tabla "{}historial"{} para llevar trazabilidad de acciones. 
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{structLogData_a813d560f082af30599b1397658cd9e7f}\label{structLogData_a813d560f082af30599b1397658cd9e7f} 
+\index{LogData@{LogData}!accion@{accion}}
+\index{accion@{accion}!LogData@{LogData}}
+\doxysubsubsection{\texorpdfstring{accion}{accion}}
+{\footnotesize\ttfamily QString Log\+Data\+::accion}
+
+Descripción de la acción (ej. "{}\+Encendido automático"{}). \Hypertarget{structLogData_aab14c0affdb746d52d6ec05208d18f3b}\label{structLogData_aab14c0affdb746d52d6ec05208d18f3b} 
+\index{LogData@{LogData}!fecha\_hora@{fecha\_hora}}
+\index{fecha\_hora@{fecha\_hora}!LogData@{LogData}}
+\doxysubsubsection{\texorpdfstring{fecha\_hora}{fecha\_hora}}
+{\footnotesize\ttfamily QString Log\+Data\+::fecha\+\_\+hora}
+
+Fecha y hora exacta en la que ocurrió el evento. \Hypertarget{structLogData_a2164ae19aac90048fc0f50aacc710547}\label{structLogData_a2164ae19aac90048fc0f50aacc710547} 
+\index{LogData@{LogData}!id\_dispositivo@{id\_dispositivo}}
+\index{id\_dispositivo@{id\_dispositivo}!LogData@{LogData}}
+\doxysubsubsection{\texorpdfstring{id\_dispositivo}{id\_dispositivo}}
+{\footnotesize\ttfamily int Log\+Data\+::id\+\_\+dispositivo}
+
+ID del dispositivo que generó el evento. \Hypertarget{structLogData_ad980cad444dc92a6bd05cb31fbb2e2e6}\label{structLogData_ad980cad444dc92a6bd05cb31fbb2e2e6} 
+\index{LogData@{LogData}!id\_evento@{id\_evento}}
+\index{id\_evento@{id\_evento}!LogData@{LogData}}
+\doxysubsubsection{\texorpdfstring{id\_evento}{id\_evento}}
+{\footnotesize\ttfamily int Log\+Data\+::id\+\_\+evento}
+
+Identificador único del registro en el historial. 
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{db__manager_8h}{db\+\_\+manager.\+h}}\end{DoxyCompactItemize}

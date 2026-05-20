@@ -1,0 +1,65 @@
+\doxysection{Device\+Data Struct Reference}
+\hypertarget{structDeviceData}{}\label{structDeviceData}\index{DeviceData@{DeviceData}}
+
+
+Estructura que almacena la información de cada dispositivo domótico. Mapea directamente los registros de la tabla "{}dispositivos"{} de la base de datos.  
+
+
+
+
+{\ttfamily \#include $<$db\+\_\+manager.\+h$>$}
+
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{structDeviceData_a3cf31b9b2c2de7a895f4ab3dfc9203c6}{id}}
+\item 
+QString \mbox{\hyperlink{structDeviceData_ade2a161c2c1cbfb29d2411bbe4b5cf11}{nombre}}
+\item 
+QString \mbox{\hyperlink{structDeviceData_a96cf2a52715e6e184adc70151e0acb2a}{tipo}}
+\item 
+QString \mbox{\hyperlink{structDeviceData_a2d908128f206f857edc58233dfc91d09}{estado}}
+\item 
+double \mbox{\hyperlink{structDeviceData_afc907dec1c25fbbe792b2c17b6894f6f}{consumo}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Estructura que almacena la información de cada dispositivo domótico. Mapea directamente los registros de la tabla "{}dispositivos"{} de la base de datos. 
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{structDeviceData_afc907dec1c25fbbe792b2c17b6894f6f}\label{structDeviceData_afc907dec1c25fbbe792b2c17b6894f6f} 
+\index{DeviceData@{DeviceData}!consumo@{consumo}}
+\index{consumo@{consumo}!DeviceData@{DeviceData}}
+\doxysubsubsection{\texorpdfstring{consumo}{consumo}}
+{\footnotesize\ttfamily double Device\+Data\+::consumo}
+
+Consumo eléctrico acumulado. \Hypertarget{structDeviceData_a2d908128f206f857edc58233dfc91d09}\label{structDeviceData_a2d908128f206f857edc58233dfc91d09} 
+\index{DeviceData@{DeviceData}!estado@{estado}}
+\index{estado@{estado}!DeviceData@{DeviceData}}
+\doxysubsubsection{\texorpdfstring{estado}{estado}}
+{\footnotesize\ttfamily QString Device\+Data\+::estado}
+
+Estado actual (ej. "{}\+Encendido"{}, "{}\+Apagado"{}). \Hypertarget{structDeviceData_a3cf31b9b2c2de7a895f4ab3dfc9203c6}\label{structDeviceData_a3cf31b9b2c2de7a895f4ab3dfc9203c6} 
+\index{DeviceData@{DeviceData}!id@{id}}
+\index{id@{id}!DeviceData@{DeviceData}}
+\doxysubsubsection{\texorpdfstring{id}{id}}
+{\footnotesize\ttfamily int Device\+Data\+::id}
+
+Identificador único autoincrementable del dispositivo. \Hypertarget{structDeviceData_ade2a161c2c1cbfb29d2411bbe4b5cf11}\label{structDeviceData_ade2a161c2c1cbfb29d2411bbe4b5cf11} 
+\index{DeviceData@{DeviceData}!nombre@{nombre}}
+\index{nombre@{nombre}!DeviceData@{DeviceData}}
+\doxysubsubsection{\texorpdfstring{nombre}{nombre}}
+{\footnotesize\ttfamily QString Device\+Data\+::nombre}
+
+Nombre descriptivo (ej. "{}\+Lámpara Sala"{}). \Hypertarget{structDeviceData_a96cf2a52715e6e184adc70151e0acb2a}\label{structDeviceData_a96cf2a52715e6e184adc70151e0acb2a} 
+\index{DeviceData@{DeviceData}!tipo@{tipo}}
+\index{tipo@{tipo}!DeviceData@{DeviceData}}
+\doxysubsubsection{\texorpdfstring{tipo}{tipo}}
+{\footnotesize\ttfamily QString Device\+Data\+::tipo}
+
+Categoría del dispositivo. 
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{db__manager_8h}{db\+\_\+manager.\+h}}\end{DoxyCompactItemize}
