@@ -1,0 +1,10 @@
+# Compilados y archivos de Qt
+*.o
+*.moc
+moc_*.cpp
+ui_*.h
+Makefile
+.qmake.stash
+
+# Base de datos local
+domotica.db
